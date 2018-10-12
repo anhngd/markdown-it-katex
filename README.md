@@ -20,14 +20,14 @@ npm install markdown-it
 Install the plugin
 
 ```
-npm install markdown-it-katex
+npm install markdown-it-mathtex
 ```
 
 Use it in your javascript
 
 ```javascript
 var md = require('markdown-it')(),
-    mk = require('markdown-it-katex');
+    mk = require('markdown-it-mathtex');
 
 md.use(mk);
 
