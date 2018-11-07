@@ -1,6 +1,6 @@
 # markdown-it-mathtex
 
-Add Math to your Markdown
+Add Math to your Markdown (An updated version of markdown-it-katex)
 
 [![Build Status](https://travis-ci.org/anhngd/markdown-it-mathtex.svg?branch=master)](https://travis-ci.org/anhngd/markdown-it-mathtex)
 
@@ -91,4 +91,4 @@ Math parsing in markdown is designed to agree with the conventions set by pandoc
 KaTeX is based on TeX and LaTeX. Support for both is growing. Here's a list of
 currently supported functions:
 
-[Function Support in KaTeX](https://github.com/Khan/KaTeX/wiki/Function-Support-in-KaTeX)
+[Function Support in KaTeX](https://katex.org/docs/supported.html)
