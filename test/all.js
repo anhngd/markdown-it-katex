@@ -17,7 +17,8 @@ testLoad(path.join(__dirname, 'fixtures/default.txt'), function(data){
 			t.plan(1);
 
 			var expected = fixture.second.text,
-				actual = md.render(fixture.first.text);
+			actual = md.render(fixture.first.text);
+			console.log('a----------- ' + actual);
 
 			t.equals(actual, expected);
 
